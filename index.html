@@ -20,6 +20,10 @@
             text-align: center;
             max-width: 800px;
             margin: 0 auto;
+            display: flex;
+            p.autor {
+                font-weight: bold;
+            }
         }
         img{
             width: 80px;
@@ -33,10 +37,23 @@
         <p>orgão genital</p>
     </header>
     <main>
-        <H2>hoje tem</H2>
-        <p>bate estaca</p>
-        <img src="imagem.jpeg" alt="imagem do neymar com a taça da copa do mundo e o halaand chorando">
-        <p>arthur</p>
+    <img src="imagem.jpeg" alt="imagem do neymar com a taça da copa do mundo e o halaand chorando">
+        <div>
+            <h2>hoje tem</h2>
+            <p class="autor"> por: Arthur Brito</p>
+            <p>hoje tem tudo de bom</p>
+            <button>🍆 <span>0</span></button>
+            <button>🍑 <span>0</span></button>
+        </div>
     <Main>
 </body>
+<script>
+    botoes..forEach (function(botao)) {
+    botao.addEventListener("click" , botaoClicado)
+    function botaoClicado() {
+        let texto = botao.querySelector("span")
+        texto.textContent++;
+    }
+}
+</script>
 </html>                                         
